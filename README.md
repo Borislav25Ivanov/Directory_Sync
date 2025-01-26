@@ -10,7 +10,7 @@ Analyze can accept three main arguments
     when folders are missing , all three modes create them
   Analzye can also accept two more arguments which are optional
     hash-only - it compares files only by their hashes so it can fail (if ommited files are compared bit by bit)
-    block - if this argument is sued durring the perform function all files are copied in 4kb chuncks intead of the whole file
+    block - if this argument is used durring the perform function all files are copied in 4kb chuncks intead of the whole file
   Analyze writes all neccessary steps needed for the syncronization in a file sync.txt which is created at the same location that the exe file is.
 
   The perform mode takes as argument the sync.exe file and executes all commands in it
